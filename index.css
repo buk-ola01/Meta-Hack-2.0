@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    background: url(inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg) no-repeat center center/cover;
+}
+.container {
+    height: 550px;
+    width: 550px;
+  
+}
+.content {
+    background-color: white;
+    height: 300px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 10px;
+    padding: 50px 40px;
+}
+button {
+    text-align: center;
+    background-color: #262626;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  
+    
+}
+button:hover {
+    background-color: transparent;
+    color: #262626;
+    border: 2px solid #262626;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #262626;
+    
+}
+.heading {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #262626;
+    color: #fff;
+    border-radius: 12px;
+    border: 2px solid #fff;
+   
+}
